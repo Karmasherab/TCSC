@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_text">ནང།</string>
+    <string name="greeting_text">བཀྲིས་བདེ་ལེགས།</string>
+    <string name="member_text">སྐབས་བཅུ་གཞིའི་ཚོགས་མི།</string>
+    <string name="gallery_text">བར་ཁྱམས།</string>
+    <string name="college_text">འགྲེལ་ཡོད་མཐོ་སློབ།</string>
+    <string name="header_text">བོད་རིགས་མཐོ་རིམ་སློབ་མའི་ཚོགས་ཆེན།</string>
+    <string name="contact_text">འབྲེལ་ལམ།</string>
+    <string name="feedback_text">ཡ་ལེན།</string>
+    <string name="exit_text">ཐོན་ལམ།</string>
+    <string name="switch_text">ལྕུག་མ།</string>
+    <string name="call_text">འབོད་པ།</string>
+    <string name="email_text">སྦྲག་ཡིག</string>
+    <string name="contact_ctext">འབྲེལ་ལམ།</string>
+    <string name="submit_ftext">མགོ་བཏགས་ཞུ་བ།</string>
+    <string name="feedback_ftext">ཡ་ལེན།</string>
+
+</resources>

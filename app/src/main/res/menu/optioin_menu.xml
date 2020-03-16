@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/contact_text"
+          android:id="@+id/menu_contact"/>
+    <item android:title="@string/feedback_text"
+        android:id="@+id/menu_feedback"/>
+    <item android:title="@string/exit_text"
+        android:id="@+id/menu_exit"/>
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="@string/switch_text"
+        app:showAsAction="always"
+        app:actionLayout="@layout/switch_item" />
+</menu>

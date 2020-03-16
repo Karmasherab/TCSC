@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363959175123",
+    "firebase_url": "https://tcsc-7335b.firebaseio.com",
+    "project_id": "tcsc-7335b",
+    "storage_bucket": "tcsc-7335b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363959175123:android:968f96c88294c36d919126",
+        "android_client_info": {
+          "package_name": "com.kashey.conference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363959175123-eomff2j7a5m8n0bu8q366ftee01164be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kashey.conference",
+            "certificate_hash": "621ccab1ad512901341c88dcff3dbbbaad998d1c"
+          }
+        },
+        {
+          "client_id": "363959175123-ijt488fgojrdjjpsrbebvp9p3rr9kc0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9SiDOzczH4UyITUOLm-DblEn6roo3Hec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363959175123-ijt488fgojrdjjpsrbebvp9p3rr9kc0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
