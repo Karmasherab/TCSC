@@ -5,12 +5,13 @@
     <item android:title="@string/contact_text"
           android:id="@+id/menu_contact"/>
     <item android:title="@string/feedback_text"
-        android:id="@+id/menu_feedback"/>
+    android:id="@+id/menu_feedback"
+        android:visible="false"/>
     <item android:title="@string/exit_text"
         android:id="@+id/menu_exit"/>
     <item
         android:id="@+id/app_bar_switch"
-        android:title="@string/switch_text"
+        android:title="Switch Language"
         app:showAsAction="always"
         app:actionLayout="@layout/switch_item" />
 </menu>

@@ -1,8 +1,19 @@
 package com.kashey.conference.domain;
 
+import com.google.firebase.Timestamp;
+
 public class Post {
     String img_url;
     String description;
+    Timestamp tiimestamp;
+
+    public Timestamp getTiimestamp() {
+        return tiimestamp;
+    }
+
+    public void setTiimestamp(Timestamp tiimestamp) {
+        this.tiimestamp = tiimestamp;
+    }
 
     public Post() {
     }

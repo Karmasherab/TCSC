@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     fragment=new HomeFragment();
                     loadFragment(fragment);
-                    getSupportActionBar().setTitle("Home");
+                    getSupportActionBar().setTitle(getString(R.string.home_text));
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 }
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     fragment=new MemberFragment();
                     loadFragment(fragment);
-                    getSupportActionBar().setTitle("Member");
+                    getSupportActionBar().setTitle(getString(R.string.member_text));
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 }
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     fragment=new GalleryFragment();
                     loadFragment(fragment);
-                    getSupportActionBar().setTitle("Gallery");
+                    getSupportActionBar().setTitle(getString(R.string.gallery_text));
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 }
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     fragment=new CollegeFragment();
                     loadFragment(fragment);
-                    getSupportActionBar().setTitle("College");
+                    getSupportActionBar().setTitle(getString(R.string.college_text));
                     drawerLayout.closeDrawer(GravityCompat.START);
                     return true;
                 }
@@ -206,7 +206,4 @@ public class MainActivity extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
-
-
-
 }

@@ -33,7 +33,14 @@ public class MembersAdapter extends RecyclerView.Adapter<MembersAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.textView.setText("Name-"+mMembersLIst.get(position).getName()+"\nDesignation-"+mMembersLIst.get(position).getDesignation()+"\nAge-"+mMembersLIst.get(position).getAge());
+
+        if(mMembersLIst.get(position).getName().contains("_n")){
+            //Toast.makeText(context, "fgullfil", Toast.LENGTH_SHORT).show();
+            String newName = mMembersLIst.get(position).getName().replace("_n","\n");
+            holder.textView.setText(newName+mMembersLIst.get(position).getDesignation());
+            //holder.textView.setText("\nDesignation-"+mMembersLIst.get(position).getDesignation());
+        }
+
         Glide.with(context).load(mMembersLIst.get(position).getImg_url()).into(holder.imageView);
 
     }

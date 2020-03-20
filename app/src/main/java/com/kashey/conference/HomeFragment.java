@@ -19,6 +19,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.kashey.conference.adapter.PostAdapter;
@@ -61,6 +62,8 @@ public class HomeFragment extends Fragment {
         mRecyclerView.setAdapter(postAdapter);
 
         db.collection("post")
+                .orderBy("tiimestamp", Query.Direction.DESCENDING)
+
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override

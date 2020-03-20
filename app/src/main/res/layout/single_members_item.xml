@@ -11,14 +11,14 @@
         android:layout_height="107dp"
         android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/karma" />
 
     <TextView
         android:id="@+id/members_desc"
-        android:layout_width="214dp"
+        android:layout_width="240dp"
         android:layout_height="51dp"
         android:layout_marginTop="56dp"
         android:text="TextView"

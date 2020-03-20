@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_text">ಮನೆ</string>
+    <string name="greeting_text">ಸ್ವಾಗತ</string>
+    <string name="member_text">ಪ್ರಸ್ತುತ ಸದಸ್ಯ</string>
+    <string name="gallery_text">ಗ್ಯಾಲರಿ</string>
+    <string name="college_text">ಕಾಲೇಜು</string>
+    <string name="header_text">ಟಿಬೆಟಿಯನ್ ಕಾಲೇಜು ವಿದ್ಯಾರ್ಥಿಗಳ ಸಮಾವೇಶ</string>
+    <string name="contact_text">ಸಂಪರ್ಕ</string>
+    <string name="feedback_text">ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="exit_text">ನಿರ್ಗಮನ</string>
+    <string name="switch_text">ಸ್ವಿಚ್</string>
+    <string name="call_text">ಕರೆ ಮಾಡಿ</string>
+    <string name="email_text">ಇಮೇಲ್</string>
+    <string name="contact_ctext">ಸಂಪರ್ಕ</string>
+    <string name="submit_ftext">ಸಲ್ಲಿಸು</string>
+    <string name="feedback_ftext">ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="language">ಭಾಷೆ</string>
+
+</resources>

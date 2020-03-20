@@ -3,27 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="320dp">
 
-    <ImageView
-        android:id="@+id/post_pic"
-        android:layout_width="394dp"
-        android:layout_height="245dp"
-        android:layout_marginTop="24dp"
-        android:scaleType="centerCrop"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_slider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_dots"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/karma" />
+        app:layout_constraintTop_toBottomOf="@+id/vp_slider" />
+<!--    <ImageView-->
+<!--        android:id="@+id/post_pic"-->
+<!--        android:layout_width="394dp"-->
+<!--        android:layout_height="245dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/karma" />-->
 
     <TextView
         android:id="@+id/post_desc"
-        android:layout_width="402dp"
+        android:layout_width="350dp"
         android:layout_height="57dp"
-        android:layout_marginTop="24dp"
         android:text="TextView"
+        android:gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintHorizontal_bias="0.262"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/post_pic" />
+        app:layout_constraintTop_toBottomOf="@+id/ll_dots" />
 </androidx.constraintlayout.widget.ConstraintLayout>

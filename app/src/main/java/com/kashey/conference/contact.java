@@ -26,7 +26,7 @@ public class contact extends AppCompatActivity {
     }
     public void call(View view) {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:7022752477"));
+        callIntent.setData(Uri.parse("tel:7022652286"));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
